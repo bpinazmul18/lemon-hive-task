@@ -10,6 +10,10 @@ function Header() {
 
   return (
     <header className='w-full overflow-hidden'>
+      {/* <div className='relative w-full'>
+        <div className='absolute top-0 left-0 w-[490px] h-[428px] bg-gradient-fill'></div>
+      </div> */}
+
       <div>
         <div className="2xl:container md:container container">
           <div className="relative flex items-center justify-between -mx-4 px-4 sm:px-0">
@@ -82,6 +86,20 @@ function Header() {
                       <span className="h-[2px] w-[30px] bg-blue-violet rounded-full"></span>
                       <span className="h-[2px] w-[30px] bg-blue-violet rounded-full"></span>
               </button>
+            </div>
+          </div>
+        </div>
+
+        <div className="2xl:container md:container container">
+          <div>
+            <div className='grid grid-cols-2 gap-4'>
+              <div className='w-3/5'>
+                <div>
+                  <h1>React Conference</h1>
+                </div>
+              </div>
+              <div className='w-2/5'></div>
+
             </div>
           </div>
         </div>
